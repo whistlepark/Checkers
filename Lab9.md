@@ -1,0 +1,1 @@
+My first intuiton when designing this game was to determine all possible moves, and determine what's the max amount of opponent pieces can be captured and/or if it's possible to get a piece to the back row in order to convert it to a King. This would require me to decide how many opponent pieces would I need to be able to capture to make it more worth it than attaining a King.
