@@ -12,10 +12,10 @@
       "os"    : "windows|mac|linux"
     },
     {
-      "name " : "Partner Name (if any)",
-      "pid"   : "Partner StudentId (if any)",
-      "email" : "Partner Email (if any)",
-      "os"    : "windows|mac|linux"
-    },
+      "name " : "Aaron Hanna",
+      "pid"   : "A15683824",
+      "email" : "arhanna@ucsd.edu",
+      "os"    : "linux"
+    }
   ]
 }
