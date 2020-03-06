@@ -13,16 +13,20 @@
 #include <iostream>
 
 namespace ECE141 {
-  
-  class Game; //forward declare...  
-  
-  class Player {
-  public:
-                      Player();
-    virtual bool      takeTurn(Game &aGame, Orientation aDirection, std::ostream &aLog);
-    const PieceColor  color;
-    static int        pcount; //how many created so far?
-  };
+
+    class Game; //forward declare...
+
+    class Player {
+    public:
+        Player();
+
+        Player(const PieceColor color);
+
+        virtual bool takeTurn(Game &aGame, Orientation aDirection, std::ostream &aLog);
+
+        const PieceColor color;
+        static int pcount; //how many created so far?
+    };
 }
 
 #endif /* Player_hpp */
