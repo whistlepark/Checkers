@@ -11,7 +11,7 @@
 
 #include "Player.hpp"
 #include "Piece.hpp"
-#include  "stdio.h"
+#include  <cstdio>
 #include <iostream>
 
 namespace ECE141 {

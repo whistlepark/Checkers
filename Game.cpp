@@ -8,13 +8,13 @@
 
 #include "Game.hpp"
 #include <vector>
-#include <stdio.h>
+#include <cstdio>
 #include <cstdlib>
 #include <ctime>
 #include <iostream>
 #include <iomanip>
 #include <algorithm>
-#include <math.h>
+#include <cmath>
 #include <map>
 #include <functional>
 
